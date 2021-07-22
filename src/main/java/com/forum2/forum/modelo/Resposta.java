@@ -1,5 +1,6 @@
-package br.com.alura.forum.modelo;
+package com.forum2.forum.modelo;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 import javax.persistence.Entity;
@@ -9,7 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class Resposta {
+public class Resposta implements Serializable{
 
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;

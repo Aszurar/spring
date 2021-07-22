@@ -1,4 +1,4 @@
-package br.com.alura.forum.controller;
+package com.forum2.forum.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

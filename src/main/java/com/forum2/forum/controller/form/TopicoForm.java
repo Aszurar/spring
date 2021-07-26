@@ -1,12 +1,24 @@
 package com.forum2.forum.controller.form;
 
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+
 import com.forum2.forum.modelo.Curso;
 import com.forum2.forum.modelo.Topico;
 import com.forum2.forum.repository.CursoRepository;
 
+import org.hibernate.validator.constraints.Length;
+
+
 public class TopicoForm {
+
+    @NotNull @NotEmpty @Length(min=5, max=50)
     private String titulo;
+
+    @NotNull @NotEmpty @Length(min=5, max=50)
     private String mensagem;
+
+    @NotNull @NotEmpty
     private String nomeCurso;
 
     public String getTitulo() {

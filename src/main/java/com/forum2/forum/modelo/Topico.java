@@ -40,7 +40,7 @@ public class Topico implements Serializable{
 
 	public Topico(String titulo, String mensagem, Curso curso) {
 		this.titulo = titulo;
-		this.mensagem =mensagem;
+		this.mensagem = mensagem;
 		this.curso = curso;
 	}
 

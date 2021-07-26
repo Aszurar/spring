@@ -1,4 +1,4 @@
-package com.forum2.forum.controller;
+package com.forum2.forum.controller.dto;
 
 import java.time.LocalDateTime;
 import java.util.List;
